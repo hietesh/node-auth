@@ -32,3 +32,6 @@ http://localhost:3000/app/reset-password
 
 Note :- For sending Email's please set the App Password in the google security section and use that as a password, Google as removed the less secure apps section (refer the below video)
 https://www.youtube.com/watch?v=rqPmaDxigNY
+
+# Hosted Link
+https://node-app-login-hitesh.herokuapp.com/app/login
