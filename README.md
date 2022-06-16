@@ -1,5 +1,11 @@
 # node-auth
-This is the node auth project
+Node Auth Project uses Passport Library for local authentication and google authentication for login,signup,logout
+
+1) You can login via username, email or google authentication
+2) You'll get a mail when you signed up
+3) You'll get a mail to reset the password (forgot password) (link expired in 2 mins)
+4) Password stored in db encrypted (bcryptjs library is used)
+5) You'll need your own credentials to fill in the env file inorder to run this project as these are sensitive information and should not be shared , sample env file is provided fill the details according to the comments
 
 # Routes
 
