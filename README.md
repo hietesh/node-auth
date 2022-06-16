@@ -13,7 +13,7 @@ Forgot Password Route
 http://localhost:3000/app/forgot-password
 
 Password Reset Route
-http://localhost:3000/app/password-reset
+http://localhost:3000/app/reset-password
 
 # Steps to install
 
