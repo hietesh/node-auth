@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="/css/sign_up.css">
+<div class="signup-section">
+    <div class="container">
+        <h1>Sign Up</h1>
+        <div class="google-button"><i class="fa-brands fa-google"></i> <a href="/app/auth/google">Sign up with Google</a></div>
+        <form action="sign-up" method="post" id="signup-form">
+            
+            <section>
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="password" required autofocus>
+            </section>
+            <section>
+                <label for="current-password">Password</label>
+                <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+            </section>
+            <section>
+                <label for="confirm-password">Confirm Password</label>
+                <input id="confirm-password" name="confirm_password" type="password" autocomplete="confirm-password" required>
+            </section>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="account">
+            <p>Already have an account?</p>
+            <a href="login">Login</a>
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/local-signup.js"></script>
+

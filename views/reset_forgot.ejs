@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="/css/reset_forgot.css">
+<div class="reset-forgot">
+    <div class="container">
+        <h1>Reset Forgot</h1>
+        <form action="/app/password-reset" method="post" id="reset-forgot-form">
+            <input hidden type="text" autocomplete="username" value="">
+            <section>
+                <label for="new-password">New Password</label>
+                <input id="new-password" name="new_password" type="password" autocomplete="new-password" required>
+            </section>
+            <section>
+                <label for="confirm-password">Confirm Password</label>
+                <input id="confirm-password" name="confirm_password" type="password" autocomplete="confirm-password" required>
+            </section>
+            <button type="submit">Set Password</button>
+        </form>
+        <div class="account">
+            <p>Already have an account?</p>
+            <a href="/app/login">Login</a>
+        </div>
+    </div>
+</div>
+
+<script src="/js/reset-forgot.js"></script>

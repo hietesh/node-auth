@@ -1,0 +1,102 @@
+.signup-section{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section h1{
+    font-size:1.4rem;
+    text-transform: capitalize;
+    margin:0px;
+}
+
+.signup-section .container{
+    padding:20px;
+    min-width:400px;
+    background:#fff;
+    border-radius:10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+.signup-section .google-button{
+    border:1px solid #dbdbdb;
+    border-radius:7px;
+    text-align: center;
+    padding:10px;
+    cursor: pointer;
+    margin-top: 20px;       
+}
+
+.signup-section .google-button a{
+    color:#000;
+    padding-left:5px;
+}
+
+.signup-section form{
+    border-top:1px solid #dbdbdb;
+    margin-top:20px;
+    padding:10px 0px;
+}
+
+.signup-section .container{
+    border-top:1px solid #dbdbdb;
+}
+
+.signup-section .container section{
+    width:96%;
+    margin:10px 0px;
+}
+
+
+
+.signup-section .container label{
+    font-size:1.05rem;
+    margin-bottom:5px;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.signup-section .container input{
+    outline: none;
+    padding:8px;
+    display: block;
+    width:100%;
+    border-radius: 5px;
+    background:#fff;
+    border:1px solid #dbdbdb;
+    font-size:1.1rem;
+    transition: focus 1 ease-in-out;
+}
+
+.signup-section .container input:focus{
+   border: 1px solid #1e90ff;
+}
+
+.signup-section .container button[type='submit']{
+   text-align: center;
+   width:100%;
+   margin-top:10px;
+   border:none;
+   padding:10px;
+   background:#1e90ff;
+   border-radius: 7px;
+   color:#fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size:1.0625rem;
+   cursor: pointer;
+}
+
+.signup-section .container button[type='submit']:hover{
+    background-color: #3b99f8;
+}
+.forgot-password{
+    margin:15px 0px;
+}
+
+.account{text-align: center;}
+.account{border-top:1px solid #dbdbdb;padding: 20px 0px;}

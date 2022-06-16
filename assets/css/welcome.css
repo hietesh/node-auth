@@ -1,0 +1,29 @@
+.welcome-section{
+   text-align: center;
+}
+
+.reset-password{
+   display: inline-block;
+   margin-top:35px;
+   margin-right:20px;
+   padding:10px;
+   border-radius:10px;
+   background-color: #1e90ff;
+   cursor: pointer;
+}
+
+.reset-password a,.signout-section a{
+    color:#fff;
+}
+
+.signout-section{
+    display: inline-block;
+    padding:10px;
+    border-radius:10px;
+    background-color: #1e90ff;
+    cursor: pointer;
+ }
+
+ .reset-password:hover,.signout-section:hover{
+    opacity: 0.9;
+ }

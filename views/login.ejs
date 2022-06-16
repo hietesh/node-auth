@@ -1,0 +1,43 @@
+
+<link rel="stylesheet" type="text/css" href="/css/login.css"></link>
+
+<section class="login-section">
+    <div class="container">
+        <h1>Sign in</h1>
+        <div class="google-button"><i class="fa-brands fa-google"></i> <a href="/app/auth/google">Login with Google</a></div>
+        <form action="login" method="post">
+            <section>
+                <label for="username">Username or Email</label>
+                <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+            </section>
+            <section>
+                <label for="current-password">Password</label>
+                <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+            </section>
+            <button type="submit">Sign in</button>
+        </form>
+        <div class="forgot-password"><a href="forgot-password">Forgot Password?</a></div>
+        <div class="no-account">
+            <p>Don't have an account?</p>
+            <a href="sign-up">Sign up</a>
+        </div>
+    </div>
+</section>
+
+<!-- show the error message  -->
+<!-- <p><%= message%></p> -->
+
+<script>
+    let message = '<%-message%>';
+    if(message){
+        new Noty({
+        type: 'error',
+        layout: 'topRight',
+        text: message,
+        timeout:2000
+    }).show();
+    }    
+</script>  
+
+
+
